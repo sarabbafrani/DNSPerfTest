@@ -1,8 +1,5 @@
-Certainly! Below is a comprehensive README file for your GitHub repository, providing detailed instructions, usage examples, and contribution guidelines for your DNS server testing and optimization project.
-
----
-
 # DNSPerfTest
+
 
 
 **DNSPerfTest** is a powerful Bash script designed to help you evaluate and optimize DNS server performance. This script tests a comprehensive list of public DNS servers for latency, jitter, and packet loss, providing you with detailed insights into their performance. With DNSPerfTest, you can:
@@ -28,16 +25,19 @@ Certainly! Below is a comprehensive README file for your GitHub repository, prov
 
 ### Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/DNSPerfTest.git
-   cd DNSPerfTest
-   ```
+You can download and run the script directly using `curl` or `wget`:
 
-2. Make the script executable:
-   ```bash
-   chmod +x test_dns.sh
-   ```
+#### Using `curl`:
+
+```bash
+curl -O https://raw.githubusercontent.com/sarabbafrani/DNSPerfTest/main/test_dns.sh && chmod +x test_dns.sh && ./test_dns.sh
+```
+
+#### Using `wget`:
+
+```bash
+wget https://raw.githubusercontent.com/sarabbafrani/DNSPerfTest/main/test_dns.sh && chmod +x test_dns.sh && ./test_dns.sh
+```
 
 ### Usage
 
@@ -87,7 +87,3 @@ For any questions or feedback, feel free to open an issue or contact the maintai
 ---
 
 With DNSPerfTest, you can ensure that your network is configured with the best performing DNS servers, enhancing your internet experience and application performance.
-
----
-
-Feel free to customize the README further to better match your project's specifics or add any additional details you think are relevant.
