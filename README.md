@@ -4,7 +4,6 @@ Certainly! Below is a comprehensive README file for your GitHub repository, prov
 
 # DNSPerfTest
 
-![DNSPerfTest Logo](https://via.placeholder.com/150) <!-- Replace with your project logo if available -->
 
 **DNSPerfTest** is a powerful Bash script designed to help you evaluate and optimize DNS server performance. This script tests a comprehensive list of public DNS servers for latency, jitter, and packet loss, providing you with detailed insights into their performance. With DNSPerfTest, you can:
 
