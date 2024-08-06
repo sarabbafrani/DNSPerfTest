@@ -64,7 +64,7 @@ DNS Server      Packet Loss     Average Latency (ms)
 Contributions are welcome! Here’s how you can help:
 
 1. **Fork the Repository**: Click the "Fork" button on the top right of this page.
-2. **Clone Your Fork**: `git clone https://github.com/yourusername/DNSPerfTest.git`
+2. **Clone Your Fork**: `git clone https://github.com/sarabbafrani/DNSPerfTest.git`
 3. **Create a New Branch**: `git checkout -b new-feature`
 4. **Make Your Changes**: Implement your changes or add new features.
 5. **Commit Your Changes**: `git commit -m "Add new feature"`
